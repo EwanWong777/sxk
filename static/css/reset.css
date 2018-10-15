@@ -2,6 +2,7 @@ html,
 body
 {
     font-size: 14px;
+    line-height: 1.5rem;
 
     color: #333;
     background-color: #f5f5f5;
@@ -29,11 +30,35 @@ h6
 {
     margin: 0;
 }
+
 p
 {
     margin: 0;
 }
+
 .weui-vcode-btn
 {
     color: #00b0ff;
+}
+
+label
+{
+    margin: 0;
+}
+
+/* checkbox */
+[class*=' weui-icon-']:before,
+[class^=weui-icon-]:before
+{
+    margin: 0;
+}
+
+.weui-cells_checkbox .weui-cell__hd
+{
+    padding-right: 10px;
+}
+
+.weui-cells_checkbox .weui-icon-checked:before
+{
+    font-size: 24px;
 }
