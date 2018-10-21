@@ -7,6 +7,10 @@ body
     color: #333;
     background-color: #f5f5f5;
 }
+ul
+{
+    list-style: none;
+}
 
 a
 {
@@ -61,4 +65,8 @@ label
 .weui-cells_checkbox .weui-icon-checked:before
 {
     font-size: 24px;
+}
+.weui-cell:before
+{
+    border-top: 1px solid #eee;
 }

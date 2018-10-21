@@ -1,12 +1,11 @@
 /**
  * 图文诊疗
- **/
+ */
 
 /* 医生信息 */
 .m-doctor
 {
     padding: 30px 0;
-    /* background-color: #03A9F4; */
 
     background: linear-gradient(to bottom, #80deea, #039be5);
 }
@@ -112,8 +111,14 @@
 
 
 /* 预约服务 */
+.m-subscribe
+{
+    margin-bottom: 15px;
 
-.m-serve-header
+    border-bottom: 1px solid #eee;
+}
+
+.m-subscribe-header
 {
     display: flex;
 
@@ -122,13 +127,13 @@
     justify-content: space-between;
 }
 
-.m-serve-header-text
+.m-subscribe-header-text
 {
     font-weight: bold;
     line-height: 30px;
 }
 
-.m-serve-header-btn
+.m-subscribe-header-btn
 {
     font-size: .8rem;
     line-height: 30px;
@@ -138,6 +143,11 @@
     color: #fff;
     border-radius: 15px;
     background-color: #03a9f4;
+}
+
+.m-subscribe-body
+{
+    margin-bottom: 10px;
 }
 
 /* 余额不足弹窗 */
@@ -204,7 +214,7 @@
 
 /**
  * 电话诊疗
- **/
+ */
 
 /* 电话按钮 */
 
@@ -217,6 +227,7 @@
 {
     width: 60px;
     margin: 0 auto;
+    margin-bottom: 15px;
     padding: 10px;
 
     border-radius: 50%;
@@ -228,9 +239,19 @@
     width: 100%;
 }
 
+.m-phone-text
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    text-align: center;
+
+    color: #f44336;
+}
+
 /**
  * 购买会员
- **/
+ */
 
 /* 盒子二 */
 .m-box-2
@@ -280,20 +301,24 @@
 {
     margin-bottom: 20px;
 }
+
 .m-vip-info > p
 {
     margin-bottom: 10px;
 }
+
 .m-vip-level
 {
     margin-bottom: 15px;
 }
+
 .m-vip-level-header
 {
     display: flex;
 
     margin-bottom: 10px;
 }
+
 .m-vip-level-header-text
 {
     font-size: 1.2rem;
@@ -310,6 +335,7 @@
 
     background-color: #fff;
 }
+
 .m-agree-box-text
 {
     line-height: 24px;
@@ -320,10 +346,12 @@
 {
     height: 48px;
 }
+
 .m-bottom-btns-place2
 {
     height: 96px;
 }
+
 .m-bottom-btns
 {
     position: fixed;
@@ -333,6 +361,7 @@
 
     width: 100%;
 }
+
 .m-bottom-btns-ok > a
 {
     line-height: 48px;
@@ -368,14 +397,17 @@
     color: #333;
     background-color: #fff;
 }
+
 .m-bottom-btns-arrow-left
 {
     padding-left: 60px;
 }
+
 .m-bottom-btns-arrow-right
 {
     padding-right: 60px;
 }
+
 .m-bottom-btns-arrow > .disabled
 {
     color: #999;
@@ -383,7 +415,7 @@
 
 /**
  * 顺心康咨询平台服务协议
- **/
+ */
 
 .m-agreement
 {
@@ -391,15 +423,17 @@
 
     background-color: #fff;
 }
+
 .m-agreement-title
 {
     font-size: 1.2rem;
     font-weight: bold;
 
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
     text-align: center;
 }
+
 .m-agreement-body > p
 {
     margin-bottom: 10px;
@@ -407,12 +441,11 @@
 
 /**
  * 诊疗时间
- **/
+ */
 /* 盒子一 */
 .m-box-3
 {
     margin-bottom: 15px;
-    padding: 15px;
 
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
@@ -424,7 +457,7 @@
     font-size: 1.2rem;
     font-weight: bold;
 
-    margin-bottom: 15px;
+    padding: 15px;
 }
 
 .m-box-3-header-sub
@@ -434,13 +467,754 @@
     color: #999;
 }
 
+.m-box-3-body
+{
+    margin-bottom: 15px;
+    padding: 0 15px;
+}
+
+.m-box-3-footer
+{
+    display: flex;
+
+    height: 48px;
+    padding: 0 15px;
+
+    border-top: 1px solid #eee;
+
+    justify-content: flex-end;
+}
+
+.m-box-3-footer > a
+{
+    line-height: 48px;
+}
+
+.m-expert-info > p
+{
+    margin-bottom: 10px;
+}
+
+.m-expert-info > img
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
 .m-table > thead
 {
     color: #fff;
     background-color: #03a9f4;
 }
+
 .m-table > thead > th
 {
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+/**
+ * 专家服务
+ */
+
+.m-link-order-box
+{
+    display: block;
+
+    margin-bottom: 15px;
+}
+
+.m-link-order
+{
+    display: flex;
+
+    height: 120px;
+
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+}
+
+.m-link-order-img
+{
+    height: 100%;
+    margin-left: 30px;
+    padding-top: 15px;
+}
+
+.m-link-order-img > img
+{
+    height: 100%;
+}
+
+.m-link-order-text
+{
+    flex: 1;
+
+    padding-top: 30px;
+}
+
+.m-link-order-text-title
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    display: block;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    color: #ffc107;
+}
+
+.m-link-order-text-link
+{
+    font-weight: bold;
+    line-height: 30px;
+
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: #fff;
+    border-radius: 15px;
+    background-color: #03a9f4;
+    ;
+}
+
+/* 常常看&连续听 */
+
+.m-serve-tab
+{
+    display: flex;
+
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+}
+
+.m-serve-tab > .active
+{
+    background-color: #e1f5fe;
+}
+
+.m-serve-tab-title
+{
+    width: 50%;
+    padding: 15px 0;
+
+    text-align: center;
+}
+
+.m-serve-tab-title-icon
+{
+    margin-bottom: 10px;
+}
+
+.m-serve-tab-title-icon > img
+{
+    height: 40px;
+}
+
+.m-serve-tab-title-text
+{
+    color: #333;
+}
+
+.m-serve-body
+{
+    padding: 15px;
+
+    background-color: #fff;
+}
+
+/* 常常看 */
+
+.m-serve-look
+{
+    margin-bottom: 20px;
+
+    border-bottom: 1px solid #eee;
+}
+
+.m-serve-look-title
+{
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+.m-serve-look-subtitle
+{
+    display: flex;
+
+    margin-bottom: 10px;
+
+    color: #999;
+}
+
+.m-serve-look-subtitle-left
+{
+    flex: 1;
+}
+
+.m-serve-look-article > img
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.m-serve-look-article > p
+{
+    margin-bottom: 10px;
+}
+
+.m-serve-look-article-link
+{
+    margin-bottom: 10px;
+
+    text-align: right;
+}
+
+/* 连续听 */
+.m-serve-listen
+{
+    margin-bottom: 15px;
+
+    border-bottom: 1px solid #eee;
+}
+
+.m-serve-listen-title
+{
+    display: flex;
+
+    margin-bottom: 10px;
+}
+
+.m-serve-listen-title-left
+{
+    flex: 1;
+}
+
+.m-serve-listen-title-right
+{
+    font-size: 20px;
+
+    color: #333;
+    color: #03a9f4;
+}
+
+.m-serve-listen-subtitle
+{
+    display: flex;
+
+    margin-bottom: 10px;
+
+    color: #999;
+}
+
+.m-serve-listen-subtitle-left
+{
+    flex: 1;
+}
+
+.m-serve-listen-subtitle-middle
+{
+    flex: 1;
+}
+
+/**
+ * 预约诊疗
+ */
+
+.m-equity > p
+{
+    line-height: 40px;
+
+    border-bottom: 1px solid #eee;
+}
+
+.m-picker-input
+{
+    display: flex;
+
+    margin: 0 15px;
+    padding: 10px 0;
+
+    border-top: 1px solid #eee;
+}
+
+.m-picker-input-left
+{
+    flex: 1;
+}
+
+.m-picker-input-right
+{
+    color: #999;
+}
+
+/**
+ * 我的会员卡
+ */
+.m-membership
+{
+    display: flex;
+
+    padding: 15px;
+
+    background: linear-gradient(to bottom, #80deea, #039be5);
+}
+
+.m-membership-left
+{
+    flex: 1;
+}
+
+.m-membership-header
+{
+    display: flex;
+
+    margin-bottom: 15px;
+}
+
+.m-membership-img
+{
+    overflow: hidden;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+}
+
+.m-membership-img > img
+{
+    height: 100%;
+}
+
+.m-membership-name
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 40px;
+
+    margin-left: 10px;
+
+    color: #fff;
+}
+
+.m-membership-number
+{
+    color: #fff;
+}
+
+.m-membership-info
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    margin-bottom: 10px;
+
+    color: #fff;
+}
+
+.m-membership-subinfo
+{
+    color: #fff;
+}
+
+.m-membership-badge
+{
+    height: 100px;
+}
+
+.m-membership-badge > img
+{
+    height: 100%;
+}
+
+.m-signin
+{
+    display: flex;
+
+    padding: 10px 15px;
+
+    background-color: #fff;
+}
+
+.m-signin-left
+{
+    line-height: 30px;
+
+    flex: 1;
+}
+
+.m-signin-right
+{
+    line-height: 30px;
+
+    padding: 0 15px;
+
+    color: #fff;
+    border-radius: 15px;
+    background-color: #ffc107;
+}
+
+/**
+ * 我的预约
+ */
+.m-tab-bar
+{
+    padding: 15px;
+}
+
+.m-taborder
+{
+    display: flex;
+
+    border: 1px solid #03a9f4;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.m-taborder > li
+{
+    flex: 1;
+
+    border-right: 1px solid #03a9f4;
+}
+
+.m-taborder > li:last-child
+{
+    border-right: none;
+}
+
+.m-taborder > li > a
+{
+    line-height: 30px;
+
+    display: block;
+
+    text-align: center;
+}
+
+.m-taborder > li > .active
+{
+    color: #fff;
+    background-color: #03a9f4;
+}
+
+.m-taborder-content
+{
+    padding: 15px;
+}
+
+.m-taborder-content-info
+{
+    text-align: center;
+}
+
+
+/**
+ * 专家我的
+ */
+.m-professor-bar
+{
+    display: flex;
+
+    padding: 15px;
+
+    background: linear-gradient(to bottom, #80deea, #039be5);
+}
+
+.m-professor-bar-left
+{
+    display: flex;
+    flex: 1;
+}
+
+.m-professor-bar-left-img
+{
+    height: 40px;
+}
+
+.m-professor-bar-left-name
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 40px;
+
+    margin-left: 10px;
+
+    color: #fff;
+}
+
+.m-professor-bar-left-img > img
+{
+    height: 100%;
+
+    border-radius: 50%;
+}
+
+.m-professor-bar-right > a
+{
+    line-height: 40px;
+
+    display: block;
+
+    color: #fff;
+}
+
+.m-income-bar
+{
+    background-color: #fff;
+}
+
+.m-income-content
+{
+    background-color: #fff;
+}
+
+.m-income-header
+{
+    display: flex;
+
+    padding: 15px 15px;
+
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.m-income-header-left
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    flex: 1;
+}
+
+.m-income-header-right
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    color: #03a9f4;
+}
+
+.m-income-body
+{
+    padding: 15px;
+
+    background-color: #fff;
+}
+
+.m-income-item
+{
+    margin-bottom: 15px;
+
+    border-bottom: 1px solid #eee;
+}
+
+.m-income-item-header
+{
+    display: flex;
+
+    margin-bottom: 15px;
+}
+
+.m-income-item-header-left
+{
+    display: flex;
+    flex: 1;
+}
+
+.m-income-item-header-img
+{
+    height: 30px;
+}
+
+.m-income-item-header-img > img
+{
+    height: 100%;
+
+    border-radius: 50%;
+}
+
+.m-income-item-header-name
+{
+    line-height: 30px;
+
+    margin-left: 10px;
+}
+
+.m-income-item-header-right
+{
+    line-height: 30px;
+}
+
+.m-income-item-body > p
+{
+    margin-bottom: 10px;
+}
+
+.m-income-btns-ok
+{
+    display: flex;
+}
+
+.m-income-btns-ok > a
+{
+    line-height: 48px;
+
+    display: block;
+    flex: 1;
+
+    height: 48px;
+
+    text-align: center;
+
+    color: #fff;
+    border-right: 1px solid #fff;
+    background-color: #03a9f4;
+}
+
+.m-income-btns-ok > a:last-child
+{
+    border-right: none;
+}
+
+/**
+ * 专家设置
+ */
+
+.m-cogs-bar
+{
+    display: flex;
+
+    padding: 15px;
+
+    background: linear-gradient(to bottom, #80deea, #039be5);
+}
+.m-cogs-bar-left > a
+{
+    font-size: 1.5rem;
+    line-height: 30px;
+
+    color: #fff;
+}
+.m-cogs-bar-right
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 30px;
+
+    flex: 1;
+
+    text-align: center;
+
+    color: #fff;
+}
+.m-cogs-body
+{
+    background-color: #fff;
+}
+.m-cogs-item
+{
+    display: flex;
+
+    padding: 15px;
+
+    border-bottom: 1px solid #eee;
+}
+.m-cogs-item-left
+{
+    display: flex;
+    flex: 1;
+}
+.m-cogs-item-left-img
+{
+    font-size: 1.5rem;
+    line-height: 30px;
+
+    width: 24px;
+
+    text-align: center;
+
+    color: #03a9f4;
+}
+.m-cogs-item-left-text
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 30px;
+
+    margin-left: 10px;
+
+    color: #333;
+}
+.m-cogs-item-right
+{
+    font-size: 1.5rem;
+    line-height: 30px;
+
+    color: #666;
+}
+
+.m-outpatient-title
+{
+    display: flex;
+
+    padding: 15px;
+
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+}
+.m-outpatient-title-img
+{
+    font-size: 1.5rem;
+
+    color: #03a9f4;
+}
+.m-outpatient-title-text
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    margin-left: 10px;
+}
+.m-outpatient-item
+{
+    display: flex;
+
+    padding: 15px;
+
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+}
+.m-outpatient-item-left
+{
+    flex: 1;
+}
+.m-outpatient-item-left > p
+{
+    margin-bottom: 10px;
+}
+.m-outpatient-item-left > p:last-child
+{
+    margin-bottom: 0;
+}
+.m-outpatient-item-right > a
+{
+    display: inline-block;
+
+    margin-left: 15px;
+}
+.m-empty-body
+{
+    padding: 15px;
+
+    text-align: center;
 }
